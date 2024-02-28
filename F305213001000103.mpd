@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><!--dvporigin-->
+<?xml version="1.0" encoding="utf-8"?>
+<!--dvporigin-->
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" mediaPresentationDuration="PT6678.02S" minBufferTime="PT5.0S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static">
 	<Period>
 		<AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="ita">
-			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="4f0cebf0-7def-4755-7433-e7304af4dafd"/>
+			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="cd429a53-6611-8ffb-c0aa-eb6e93c57c4a"/>
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine">
-				<cenc:pssh>AAAAU3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADMIARIQTwzr8H3vR1V0M+cwSvTa/RoNYW1hem9uaW5mbmVybyIIdGFtX3Rlc3QqAlNEMgA=</cenc:pssh>
+				<cenc:pssh>AAAAU3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADMIARIQfguqCy/Z4UHv/bHvInl6gBoNYW1hem9uaW5mbmVybyIIdGFtX3Rlc3QqAlNEMgA=</cenc:pssh>
 			</ContentProtection>
 			<Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
 			<Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="0_0" bandwidth="68158">
@@ -1407,9 +1408,9 @@
 			</Representation>
 		</AdaptationSet>
 		<AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="eng">
-			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="4f0cebf0-7def-4755-7433-e7304af4dafd"/>
+			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="cd429a53-6611-8ffb-c0aa-eb6e93c57c4a"/>
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine">
-				<cenc:pssh>AAAAU3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADMIARIQTwzr8H3vR1V0M+cwSvTa/RoNYW1hem9uaW5mbmVybyIIdGFtX3Rlc3QqAlNEMgA=</cenc:pssh>
+				<cenc:pssh>AAAAU3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADMIARIQfguqCy/Z4UHv/bHvInl6gBoNYW1hem9uaW5mbmVybyIIdGFtX3Rlc3QqAlNEMgA=</cenc:pssh>
 			</ContentProtection>
 			<Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
 			<Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="1_0" bandwidth="68158">
@@ -2813,9 +2814,9 @@
 			</Representation>
 		</AdaptationSet>
 		<AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
-			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="4f0cebf0-7def-4755-7433-e7304af4dafd"/>
+			<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="cd429a53-6611-8ffb-c0aa-eb6e93c57c4a"/>
 			<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="Widevine">
-				<cenc:pssh>AAAAU3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADMIARIQTwzr8H3vR1V0M+cwSvTa/RoNYW1hem9uaW5mbmVybyIIdGFtX3Rlc3QqAlNEMgA=</cenc:pssh>
+				<cenc:pssh>AAAAU3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADMIARIQfguqCy/Z4UHv/bHvInl6gBoNYW1hem9uaW5mbmVybyIIdGFtX3Rlc3QqAlNEMgA=</cenc:pssh>
 			</ContentProtection>
 			<Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
 			<Representation width="768" height="432" codecs="avc1.64001e" id="2_1" bandwidth="1007345">
@@ -2862,12 +2863,12 @@
 			</Representation>
 		</AdaptationSet>
 		<AdaptationSet mimeType="text/vtt" lang="it" forced="false" default="false">
-			<Representation id="vtt_it" bandwidth="8000">
+			<Representation id="vtt_it" bandwidth="0">
 				<BaseURL>https://vod06.msf.cdn.mediaset.net/farmunica/2023/06/1359824_1890133854df89/1890133854df89-03_1.vtt</BaseURL>
 			</Representation>
 		</AdaptationSet>
 		<AdaptationSet mimeType="text/vtt" lang="en" forced="false" default="false">
-			<Representation id="vtt_en" bandwidth="8000">
+			<Representation id="vtt_en" bandwidth="0">
 				<BaseURL>https://vod06.msf.cdn.mediaset.net/farmunica/2023/06/1359824_1890133854df89/1890133854df89-03_2.vtt</BaseURL>
 			</Representation>
 		</AdaptationSet>
