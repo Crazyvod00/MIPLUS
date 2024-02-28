@@ -2862,14 +2862,12 @@
 			</Representation>
 		</AdaptationSet>
 		<AdaptationSet mimeType="text/vtt" lang="it" forced="false" default="false">
-		<Label>Non Udenti</Label>
-			<Representation id="vtt_it" bandwidth="0">
+			<Representation id="vtt_it" bandwidth="8000">
 				<BaseURL>https://vod06.msf.cdn.mediaset.net/farmunica/2023/06/1359824_1890133854df89/1890133854df89-03_1.vtt</BaseURL>
 			</Representation>
 		</AdaptationSet>
 		<AdaptationSet mimeType="text/vtt" lang="en" forced="false" default="false">
-		<Label>Non Udenti</Label>
-			<Representation id="vtt_en" bandwidth="0">
+			<Representation id="vtt_en" bandwidth="8000">
 				<BaseURL>https://vod06.msf.cdn.mediaset.net/farmunica/2023/06/1359824_1890133854df89/1890133854df89-03_2.vtt</BaseURL>
 			</Representation>
 		</AdaptationSet>
