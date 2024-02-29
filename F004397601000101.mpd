@@ -1519,7 +1519,6 @@
 				</SegmentTemplate>
 			</Representation>
 		</AdaptationSet>
-		</AdaptationSet>
 		<AdaptationSet mimeType="text/vtt" lang="it" forced="false" default="false">
 			<Representation id="vtt_it" bandwidth="0">
 				<BaseURL>https://statictxt.msf.cdn.mediaset.net/farmunica/2021/04/873235_17922c66d62708/17922c66d62708-03_1.vtt</BaseURL>
