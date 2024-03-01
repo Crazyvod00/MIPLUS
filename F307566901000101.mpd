@@ -1397,5 +1397,6 @@
 			<Representation id="vtt_it" bandwidth="0">
 				<BaseURL>https://statictxt.msf.cdn.mediaset.net/farmunica/2022/03/1074599_17fb0fa8802b65/17fb0fa8802b65-03_1.vtt</BaseURL>
 			</Representation>
+		</AdaptationSet>
 	</Period>
 </MPD>
